@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-sample';
-}
+  featureRecipe = 'Recipe';
+
+  OnNavigateClick(eventData: string) {
+    this.featureRecipe = eventData;
+    }
+  }
